@@ -1,0 +1,11 @@
+.cursor{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: #fff solid 1px;
+    position: absolute;
+    pointer-events: none;
+    box-shadow: rgb(255, 255, 255) 0px 0px 100px 4px;
+    z-index: 3;
+}

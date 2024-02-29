@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(10, 6, 36); /* Transparente para focar no indicador */
+  border-radius: 8px; /* Cantos arredondados */
+  
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: #f7f7f7 0px 0px 5px 0px;
+  background: linear-gradient(180deg, #4e31c2, #7b5eea, #4e31c2);
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff11;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: #f7f7f7 0px 0px 5px 0px;
+  background: linear-gradient(180deg, #4e31c2, #152c91, #4e31c2);
+}
+
+body{
+cursor: url("../img/mouse.svg"),auto;
+}
+
+a, button:hover{
+cursor: url("../img/mouse.svg"),auto;
+}
